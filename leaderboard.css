@@ -1,0 +1,32 @@
+html{
+    --background-color: #0b151b;
+    --var-color: #3568dc;
+    background-color: var(--background-color);
+    text-align: center;
+
+}
+
+
+table.customTable {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 3px;
+    border-color: var(--var-color);
+    border-style: solid;
+    color: #000000;
+}
+  
+table.customTable td, table.customTable th {
+    border-width: 3px;
+     border-color: var(--var-color);
+      border-style: solid;
+     padding: 5px;
+}
+  
+table.customTable thead {
+     background-color: var(--var-color);
+}
